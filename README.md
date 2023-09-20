@@ -5,7 +5,7 @@ Code associated with:
  - MSc Applied Machine Learning @ Imperial College London (2023)
  - Author: Shreya Wadehra
 
-Repo contains experiments for distributed, multi-task, deep network training in the form of notebooks. Experiments include:
+Repo contains experiments for distributed, multi-task, deep network training in the form of notebooks using PyTorch. Experiments include:
  - Approximate projection algorithm on MNIST data
  - Exact Subspace Diffusion algorithm on MNIST data
  - Exact Subspace Diffusion with Local Automatic Gradient Descent on MNIST data
