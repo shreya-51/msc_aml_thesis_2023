@@ -7,7 +7,7 @@ Code associated with:
 
 Repo contains experiments for distributed, multi-task, deep network training in the form of notebooks. Experiments include:
  - Approximate projection algorithm on MNIST data
- - Exact Subspace Diffusion algorithm on MNSIT data
+ - Exact Subspace Diffusion algorithm on MNIST data
  - Exact Subspace Diffusion with Local Automatic Gradient Descent on MNIST data
  - Exact Subspace Diffusion with Shared Automatic Gradient Descent on MNIST data
 
