@@ -15,6 +15,17 @@ Repo contains experiments for distributed, multi-task, deep network training in 
  - Exact Subspace Diffusion with Local Automatic Gradient Descent on CIFAR-10 data
  - Exact Subspace Diffusion with Shared Automatic Gradient Descent on CIFAR-10 data
 
+Abstract:
+>This thesis proposes and implements three algorithms for the case of subspace-constrained, distributed, multi-task optimization. Algorithm 1 extends primal-dual optimization techniques to a
+distributed, multi-task, and subspace-constrained setting to remove a bias seen in penalty-based
+algorithms. The following two algorithms apply specifically to neural network optimization. Algorithm 2 combines Algorithm 1 and automatic gradient descent to establish an automatic learning
+rate as a function of an agent’s local gradient. Algorithm 3 improves upon this by calculating the
+automatic learning rate using shared gradients amongst the neighboring agents. The algorithms
+were then implemented in PyTorch and tested on MNIST and CIFAR-10 data. Results show that
+Algorithm 1 effectively removed the bias seen in penalty-based optimization, Algorithms 2 and 3
+was successfully able to train with no manual learning rate tuning, and Algorithm 3 provided an
+improvement in convergence over Algorithm 2 resulting from the shared gradients.
+
 Background:
  - Approximate projection algorithm [1]   [paper](https://arxiv.org/abs/1905.08750)
  - Exact Subspace Diffusion algorithm [2] [paper](https://arxiv.org/abs/2304.07358)  
