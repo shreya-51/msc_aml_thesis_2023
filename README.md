@@ -7,13 +7,13 @@ Code associated with:
 
 Repo contains experiments for distributed, multi-task, deep network training in the form of notebooks using PyTorch. Experiments include:
  - Approximate projection algorithm on MNIST data
- - Exact Subspace Diffusion algorithm on MNIST data
- - Exact Subspace Diffusion with Local Automatic Gradient Descent on MNIST data
- - Exact Subspace Diffusion with Shared Automatic Gradient Descent on MNIST data
+ - Exact Subspace Diffusion algorithm on MNIST data (Algorithm 1)
+ - Exact Subspace Diffusion with Local Automatic Gradient Descent on MNIST data (Algorithm 2)
+ - Exact Subspace Diffusion with Shared Automatic Gradient Descent on MNIST data (Algorithm 3)
 
- - Exact Subspace Diffusion algorithm on CIFAR-10 data
- - Exact Subspace Diffusion with Local Automatic Gradient Descent on CIFAR-10 data
- - Exact Subspace Diffusion with Shared Automatic Gradient Descent on CIFAR-10 data
+ - Exact Subspace Diffusion algorithm on CIFAR-10 data (Algorithm 1)
+ - Exact Subspace Diffusion with Local Automatic Gradient Descent on CIFAR-10 data (Algorithm 2)
+ - Exact Subspace Diffusion with Shared Automatic Gradient Descent on CIFAR-10 data (Algorithm 3)
 
 Abstract:
 >This thesis proposes and implements three algorithms for the case of subspace-constrained, distributed, multi-task optimization. Algorithm 1 extends primal-dual optimization techniques to a
